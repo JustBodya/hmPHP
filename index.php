@@ -23,7 +23,7 @@ function _log($str, $suffix)
         mkdir($suffix);
     }
 
-    $file = fopen(getcwd() . "/" . $suffix . "/someFile.txt", "a+");
+    $file = fopen(getcwd() . "/" . $suffix . "/logs.txt", "a+");
 
     fputs($file, "$str, date of recording is " . date('Y-m-d H:i:s') . "\n");
 
