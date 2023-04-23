@@ -17,7 +17,7 @@ $suf = "dir";
 
 _log($value, $suf);
 
-function _log($str, $suffix = "logs")
+function _log($str, $suffix = "")
 {
     counter();
 
